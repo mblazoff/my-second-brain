@@ -1,4 +1,19 @@
-node_modules/
+# Secrets
+credentials.json
 .env
+.env.local
+.env.*
+
+# Logs
+*.log
+npm-debug.log*
+
+# Node
+node_modules/
+.next/
+dist/
+build/
+
+# System
 .DS_Store
-.vscode/
+Thumbs.db
